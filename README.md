@@ -6,19 +6,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 ## 3. install dependencies
-sudo apt-get install build-essential cmake git unzip pkg-config
-sudo apt-get install libjpeg-dev libpng-dev
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev
-sudo apt-get install libgtk2.0-dev libcanberra-gtk* libgtk-3-dev
-sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
-sudo apt-get install libxvidcore-dev libx264-dev
-sudo apt-get install python3-dev python3-numpy python3-pip
-sudo apt-get install libtbb2 libtbb-dev libdc1394-22-dev
-sudo apt-get install libv4l-dev v4l-utils
-sudo apt-get install libopenblas-dev libatlas-base-dev libblas-dev
-sudo apt-get install liblapack-dev gfortran libhdf5-dev
-sudo apt-get install libprotobuf-dev libgoogle-glog-dev libgflags-dev
-sudo apt-get install protobuf-compiler
+sudo apt-get install build-essential cmake git unzip pkg-config libjpeg-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libgtk2.0-dev libcanberra-gtk* libgtk-3-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libxvidcore-dev libx264-dev python3-dev python3-numpy python3-pip libtbb2 libtbb-dev libdc1394-22-dev libv4l-dev v4l-utils libopenblas-dev libatlas-base-dev libblas-dev liblapack-dev gfortran libhdf5-dev libprotobuf-dev libgoogle-glog-dev libgflags-dev protobuf-compiler
 
 ## 4. compile
 cd opencv-4.5.2
